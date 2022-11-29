@@ -250,7 +250,7 @@ $(document).ready(function () {
 	$(".rmf-carousel").owlCarousel({
 		items: 3,
 		nav: true,
-		navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
+		navText: ["<img src='images/resources/arrowBack_.svg'>", "<img src='images/resources/arrowForward.svg'>"],
 		dots: false,
 		responsiveClass: true,
 		responsive: {
@@ -261,11 +261,11 @@ $(document).ready(function () {
 				items: 1
 			},
 			768: {
-				items: 2,
+				items: 1,
 				nav: false
 			},
 			992: {
-				items: 3
+				items: 1
 			}
 		}
 	});
