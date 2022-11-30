@@ -11056,6 +11056,6 @@ footer.top-footer .siteAddress p {
   font-family: var(--Montserrat_Medium);
 }
 
-* {
+/* * {
   word-break: break-all;
-}
+} */
