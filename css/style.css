@@ -3594,6 +3594,12 @@ section.overview {
   left: -45px;
 }
 
+.rem-featured-properties .rem-fp-carousel .rmf-carousel .owl-nav div.owl-prev.disabled,
+.rem-featured-properties .rem-fp-carousel .rmf-carousel .owl-nav div.owl-next.disabled {
+  opacity: 0.4;
+}
+
+
 .rem-featured-properties .rem-fp-carousel .rmf-carousel .owl-nav div.owl-next {
   float: right;
   position: relative;
@@ -10178,6 +10184,10 @@ nav .navbar-nav {
   color: #f1f1f1;
 }
 
+.btn-style2:focus {
+  color: #f1f1f1;
+}
+
 .intro .sticky-wrapper.is-sticky .btn-style1 {
   border-color: var(--primaryColor);
   color: var(--primaryColor);
@@ -10587,7 +10597,7 @@ input[type=number] {
 
 .locMap_btn {
   position: relative;
-  top: -100px;
+  top: -150px;
 }
 
 .locMap__cardView {
@@ -10625,6 +10635,10 @@ input[type=number] {
   text-align: center;
   font-family: var(--Montserrat_Medium);
   margin-top: 15px;
+}
+
+#factFile .factFile__list li>b {
+  font-family: var(--Montserrat_Bold);
 }
 
 #factFile .factFile__title {
@@ -10915,7 +10929,7 @@ input[type=number] {
 }
 
 .rem-fp-carousel .item-inner .floorBg {
-  height: 785px;
+  height: 700px;
   width: 100%;
   /* margin: auto; */
   /* background-position: center !important; */
@@ -10937,9 +10951,9 @@ input[type=number] {
   /* width: 100%; */
   margin-top: 10px;
   /* display: none; */
-  gap: 15px;
+  /* gap: 15px; */
   position: absolute;
-  bottom: 25px;
+  bottom: 100px;
   right: 0;
 }
 
@@ -10983,4 +10997,65 @@ input[type=number] {
   border-top-right-radius: 55px;
   border-bottom-left-radius: 55px;
   overflow: hidden;
+}
+
+.addr_one .addr_title {
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: var(--secondayColor);
+  font-family: var(--Modelica_Bold);
+}
+
+.addr_one .addr_desc {
+  font-size: 18px;
+  line-height: 1.3;
+  color: var(--secondayColor);
+  font-family: var(--Montserrat_Medium);
+  margin-top: 15px;
+}
+
+.addr_one .addr_desc>b {
+  font-family: var(--Montserrat_Bold);
+}
+
+footer.top-footer {
+  /* height: 100vh; */
+  background: #EEEDDE url(../images/resources/partners-bg.png);
+  padding: 100px 0;
+  background-size: cover;
+}
+
+footer.top-footer .logoTag {
+  font-size: 22px;
+  line-height: 27px;
+  text-transform: uppercase;
+  color: #1C2C58;
+  font-family: var(--Montserrat_Bold);
+  margin-bottom: 30px;
+}
+
+.space1 {
+  margin-top: 196px;
+}
+
+footer.top-footer .siteAddress h5 {
+  font-size: 22px;
+  line-height: 27px;
+  text-align: center;
+  color: #1C2C58;
+  font-family: var(--Modelica_Bold);
+}
+
+footer.top-footer .siteAddress p {
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: center;
+  color: #1C2C58;
+  margin-top: 5px;
+  font-family: var(--Montserrat_Medium);
+}
+
+* {
+  word-break: break-all;
 }

@@ -577,6 +577,44 @@
 
 /* Mobile Layout: 320px */
 @media only screen and (max-width: 767px) {
+	.alignCenter {
+		flex-direction: column;
+	}
+
+	.banner-intro-content .imgCircle>img {
+		width: 300px;
+		height: 300px;
+		margin: auto;
+	}
+
+	.intro-restrnt,
+	.video-description {
+		height: 100%;
+	}
+
+	.video-description .video-play-btn .video-iframe {
+		height: 50px;
+		width: 50px;
+	}
+
+	.video-description .video-play-btn {
+		top: 45%;
+		transform: translateY(-55%);
+	}
+
+	.overView .container-fluid .lhs_overVContent {
+		padding: 20px 20px;
+	}
+
+	.locMap__cardView {
+		flex-direction: column;
+	}
+
+	.amenities .row.d-flex,
+	#gallerys .row.d-flex {
+		flex-direction: column;
+	}
+
 	.navbar-header {
 		padding: 0 15px;
 	}

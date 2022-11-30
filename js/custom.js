@@ -248,11 +248,13 @@ $(document).ready(function () {
 
 	//REM Featured Properties Carousel
 	$(".rmf-carousel").owlCarousel({
-		items: 3,
+		items: 1,
 		nav: true,
 		navText: ["<img src='images/resources/arrowBack_.svg'>", "<img src='images/resources/arrowForward.svg'>"],
 		dots: false,
 		responsiveClass: true,
+		// touchDrag: false,
+		// mouseDrag: false,
 		responsive: {
 			0: {
 				items: 1
@@ -262,7 +264,6 @@ $(document).ready(function () {
 			},
 			768: {
 				items: 1,
-				nav: false
 			},
 			992: {
 				items: 1
