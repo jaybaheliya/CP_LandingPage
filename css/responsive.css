@@ -29,9 +29,19 @@
 	}
 }
 
-@media only screen and (min-width: 1366px) and (max-width: 1600px) {
+@media only screen and (max-width: 1024px) {
+	.intro .cp-nav a.navbar-brand {
+		width: 260px;
+	}
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1600px) {
 	.intro .cp-nav a.navbar-brand {
 		width: 350px;
+	}
+
+	.navbar-collapse.collapse {
+		padding: 0;
 	}
 
 	.intro .cp-nav ul li a {
@@ -64,19 +74,86 @@
 	}
 
 	.overView .container-fluid .lhs_overVContent .title {
-		font-size: 34px;
-		line-height: 1.2;
+		font-size: 32px;
+		line-height: 1.3;
 		margin-bottom: 30px;
 	}
 
 	.overView .container-fluid .lhs_overVContent ul li {
+		font-size: 17px;
+		line-height: 1.4;
+	}
+
+	.overView .container-fluid .lhs_overVContent {
+		padding: 50px 50px 0 140px;
+	}
+
+	#locationMap .lMap__title {
+		font-size: 26px;
+		line-height: 34px;
+	}
+
+	.adjPos {
+		top: -60px;
+		left: -13%;
+	}
+
+	.btn-style2 {
+		padding: 12px 20px !important;
+		font-size: 14px;
+	}
+
+	.is-sticky .cp-nav {
+		padding: 20px 0 !important;
+	}
+
+	.locMap_btn {
+		position: relative;
+		top: -120px;
+	}
+
+	.locMap__innerCard figcaption h4 {
+		line-height: 1.3;
+		font-size: 16px;
+	}
+
+	.locMap__innerCard figcaption p {
+		line-height: 1.3;
+		font-size: 16px;
+	}
+
+	#factFile .factFile__title {
+		font-size: 36px;
+		line-height: 120%;
+	}
+
+	.mahaRera__txt {
+		font-size: 16px;
+	}
+
+	.waterMark {
+		font-size: 90px;
+		top: -100px;
+	}
+
+	#factFile .factFile__list li {
 		font-size: 16px;
 		line-height: 1.2;
 	}
 
-	#factFile .factFile__list li {
-		font-size: 18px;
-		line-height: 20px;
+	#configuration .config__title {
+		font-size: 80px;
+		line-height: 120%;
+	}
+
+	#amenities .amenitiesCard img {
+		height: 160px;
+		width: 160px;
+	}
+
+	#amenities .amenitiesCard img.largeC {
+		height: 270px;
+		width: 270px;
 	}
 
 	#amenities .amenitiesCard .amenitiesCard__title {
@@ -87,6 +164,83 @@
 	#amenities .amenitiesCard .amenitiesCard__desc {
 		font-size: 14px;
 		line-height: 1.3;
+	}
+
+	.gallery2 .gallery2__title {
+		font-size: 18px;
+	}
+
+	.gallery2 figure figcaption {
+		font-size: 12px;
+		line-height: 16px;
+		word-break: break-word;
+	}
+
+	.gal_text {
+		font-size: 12px;
+		line-height: 16px;
+	}
+
+	#specification .specs__rhs .specs__title {
+		font-size: 18px;
+		line-height: 20px;
+	}
+
+	#specification .specs__rhs .specs__desc {
+		font-size: 14px;
+		line-height: 22px;
+	}
+
+	.specs__lhs>img {
+		height: 38px;
+		width: 38px;
+	}
+
+	.addr_one .addr_desc {
+		font-size: 16px;
+	}
+
+	.addr_one .addr_title {
+		font-size: 24px;
+		line-height: 34px;
+	}
+
+	.partLogo {
+		width: 300px;
+	}
+
+	.jmmLogo {
+		height: 180px;
+	}
+
+	footer.top-footer .siteAddress p {
+		font-size: 16px;
+		line-height: 1.6;
+	}
+
+	footer.top-footer .siteAddress h5 {
+		font-size: 20px;
+		line-height: 24px;
+	}
+
+	.space1 {
+		margin-top: 140px;
+	}
+
+	#configuration .config__table thead th {
+		font-size: 18px;
+	}
+
+	#configuration .config__table tbody td {
+		font-size: 18px;
+		line-height: 1.2;
+		padding: 13px 10px;
+	}
+
+	.bottom-footer h5,
+	.bottom-footer p {
+		font-size: 16px;
+		line-height: 24px;
 	}
 
 	.mainCard-adj {

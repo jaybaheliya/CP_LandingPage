@@ -76,7 +76,7 @@ h2 {
 h4,
 h5,
 h6 {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--Modelica_Regular);
 }
 
 .nav>li>a:focus,
@@ -89,7 +89,7 @@ h6 {
 }
 
 section {
-  padding: 120px 0px;
+  padding: 100px 0px;
   position: relative;
 }
 
@@ -500,7 +500,7 @@ section.overview {
 
 .overview .overview-details h3 {
   color: #323232;
-  font-family: "Roboto", sans-serif;
+  font-family: var(--Modelica_Regular);
   text-transform: uppercase;
   font-size: 20px;
   margin-bottom: 16px;
@@ -1375,7 +1375,7 @@ section.overview {
 }
 
 .tools .tools-wrapper h3 {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--Modelica_Regular);
   font-size: 20px;
   text-transform: uppercase;
   margin: 20px 0 15px 0;
@@ -3054,7 +3054,7 @@ section.overview {
 }
 
 .intro-rstate-m .property-slider .carousel-inner .item figure figcaption .slider-details h1 span.sticker {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--Modelica_Regular);
   font-size: 13px;
   background: #f9a11b;
   color: #fff;
@@ -3375,7 +3375,7 @@ section.overview {
   font-weight: 600;
   text-transform: uppercase;
   margin: 20px 0;
-  font-family: "Roboto", sans-serif;
+  font-family: var(--Modelica_Regular);
 }
 
 .rem-offers .rem-offer-boxes .offer-single span {
@@ -8203,7 +8203,7 @@ body.travel-agency {
   line-height: 61px;
   color: #727272;
   border-radius: 50px;
-  font-family: "Roboto", sans-serif;
+  font-family: var(--Modelica_Regular);
   font-size: 18px;
   font-weight: 500;
   text-transform: uppercase;
@@ -8253,7 +8253,7 @@ body.travel-agency {
   font-size: 20px;
   font-weight: 700;
   text-transform: uppercase;
-  font-family: "Roboto", sans-serif;
+  font-family: var(--Modelica_Regular);
   color: #323232;
   transition: all ease-in-out 0.5s;
 }
@@ -8284,9 +8284,9 @@ body.travel-agency {
 .seo-offer-area .section-title-seo-left h2 {
   font-size: 35px;
   font-weight: 700;
-  font-family: "Roboto", sans-serif;
+  font-family: var(--Modelica_Regular);
   color: #333;
-  font-family: "Roboto", sans-serif;
+  font-family: var(--Modelica_Regular);
   line-height: 45px;
   margin: 0;
   position: relative;
@@ -8305,7 +8305,7 @@ body.travel-agency {
 
 .seo-offer-area .section-title-seo-left a {
   color: #323232;
-  font-family: "Roboto", sans-serif;
+  font-family: var(--Modelica_Regular);
   font-weight: 700;
   font-size: 15px;
   text-transform: uppercase;
@@ -8339,7 +8339,7 @@ body.travel-agency {
   font-size: 19px;
   font-weight: 700;
   text-transform: uppercase;
-  font-family: "Roboto", sans-serif;
+  font-family: var(--Modelica_Regular);
   color: #323232;
   transition: all ease-in-out 0.5s;
 }
@@ -8371,7 +8371,7 @@ body.travel-agency {
   width: 100%;
   padding-top: 5px;
   color: #727272;
-  font-family: "Roboto", sans-serif;
+  font-family: var(--Modelica_Regular);
   font-size: 14px;
 }
 
@@ -8388,7 +8388,7 @@ body.travel-agency {
   border-radius: 50px;
   font-size: 17px;
   color: #ffffff;
-  font-family: "Roboto", sans-serif;
+  font-family: var(--Modelica_Regular);
   text-transform: uppercase;
 }
 
@@ -8445,7 +8445,7 @@ body.travel-agency {
   margin: 0;
   font-size: 20px;
   font-weight: 500;
-  font-family: "Roboto", sans-serif;
+  font-family: var(--Modelica_Regular);
   color: #ffffff;
   text-transform: capitalize;
 }
@@ -8454,7 +8454,7 @@ body.travel-agency {
   font-size: 15px;
   color: #ffffff;
   font-weight: 400;
-  font-family: "Roboto", sans-serif;
+  font-family: var(--Modelica_Regular);
   text-decoration: none;
 }
 
@@ -8482,7 +8482,7 @@ body.travel-agency {
 .seo-priceing .single-plan .price-wrapper .price-head {
   background: transparent url("../images/seo-landing/pshape.png") no-repeat scroll 0 0;
   padding: 20px 0;
-  font-family: "Roboto", sans-serif;
+  font-family: var(--Modelica_Regular);
 }
 
 .seo-priceing .single-plan .price-wrapper .price-head h3 {
@@ -8517,7 +8517,7 @@ body.travel-agency {
   display: block;
   line-height: 45px;
   transition: all ease-in-out 0.5s;
-  font-family: "Roboto", sans-serif;
+  font-family: var(--Modelica_Regular);
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -8588,7 +8588,7 @@ body.travel-agency {
   color: #323232;
   font-size: 20px;
   font-weight: 700;
-  font-family: "Roboto", sans-serif;
+  font-family: var(--Modelica_Regular);
   text-transform: uppercase;
   letter-spacing: 1px;
 }
@@ -8597,7 +8597,7 @@ body.travel-agency {
   font-size: 15px;
   font-weight: 400;
   color: #727272;
-  font-family: "Roboto", sans-serif;
+  font-family: var(--Modelica_Regular);
 }
 
 .testimonial-area .cascade-slider_container .cascade-slider_item p {
@@ -8693,7 +8693,7 @@ body.travel-agency {
   font-size: 40px;
   font-weight: 500;
   text-transform: capitalize;
-  font-family: "Roboto", sans-serif;
+  font-family: var(--Modelica_Regular);
   color: #ffffff;
 }
 
@@ -8702,7 +8702,7 @@ body.travel-agency {
   border-radius: 50px;
   color: #ffffff;
   display: block;
-  font-family: "Roboto", sans-serif;
+  font-family: var(--Modelica_Regular);
   font-size: 18px;
   font-weight: 500;
   height: 61px;
@@ -8753,7 +8753,7 @@ body.travel-agency {
   color: #727272;
   font-size: 15px;
   font-weight: 400;
-  font-family: "Roboto", sans-serif;
+  font-family: var(--Modelica_Regular);
 }
 
 .seo-footer-area .single-footer .single-footer-content .footer-about .footer-social li:last-child {
@@ -8780,7 +8780,7 @@ body.travel-agency {
   color: #727272;
   font-size: 15px;
   font-weight: 400;
-  font-family: "Roboto", sans-serif;
+  font-family: var(--Modelica_Regular);
 }
 
 .seo-footer-area .single-footer .single-footer-content .latest-post li a:hover {
@@ -8804,7 +8804,7 @@ body.travel-agency {
   color: #727272;
   font-size: 15px;
   font-weight: 400;
-  font-family: "Roboto", sans-serif;
+  font-family: var(--Modelica_Regular);
   text-transform: capitalize;
   margin-bottom: 30px;
   transition: all ease-in-out 0.3s;
@@ -8838,7 +8838,7 @@ body.travel-agency {
   border-radius: 50px;
   font-size: 17px;
   color: #ffffff;
-  font-family: "Roboto", sans-serif;
+  font-family: var(--Modelica_Regular);
   text-transform: uppercase;
 }
 
@@ -9070,7 +9070,7 @@ body.travel-agency {
 .intro-event .event-intro-content .intro-content .intro-title .clock-countdown .coundown-timer {
   font-size: 40px;
   font-weight: 700;
-  font-family: "Roboto", sans-serif;
+  font-family: var(--Modelica_Regular);
 }
 
 .intro-event .event-intro-content .intro-content .intro-title .clock-countdown .coundown-timer .single-counter {
@@ -9087,7 +9087,7 @@ body.travel-agency {
 
 .intro-event .event-intro-content .intro-content .intro-title .clock-countdown .coundown-timer .single-counter .normal {
   font-size: 25px;
-  font-family: "Roboto", sans-serif;
+  font-family: var(--Modelica_Regular);
   font-weight: 400;
 }
 
@@ -9104,7 +9104,7 @@ body.travel-agency {
   line-height: 61px;
   color: #ffffff;
   border-radius: 50px;
-  font-family: "Roboto", sans-serif;
+  font-family: var(--Modelica_Regular);
   font-size: 17px;
   font-weight: 500;
   text-transform: uppercase;
@@ -9177,7 +9177,7 @@ body.travel-agency {
   line-height: 44px;
   color: #ffffff;
   border-radius: 50px;
-  font-family: "Roboto", sans-serif;
+  font-family: var(--Modelica_Regular);
   font-size: 15px;
   font-weight: 500;
   text-transform: uppercase;
@@ -9362,7 +9362,7 @@ body.travel-agency {
 }
 
 .schedule-area .event-schedule .all-event-btns .btn-single a span:last-child {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--Modelica_Regular);
   font-size: 20px;
   font-weight: 400;
 }
@@ -9400,7 +9400,7 @@ body.travel-agency {
 .schedule-area .event-schedule .tab-content .single-items .event-info h3 {
   text-transform: uppercase;
   font-size: 20px;
-  font-family: "Roboto", sans-serif;
+  font-family: var(--Modelica_Regular);
   font-weight: 700;
   color: #323232;
   margin: 0;
@@ -9441,7 +9441,7 @@ body.travel-agency {
   line-height: 44px;
   color: #92278f;
   border-radius: 50px;
-  font-family: "Roboto", sans-serif;
+  font-family: var(--Modelica_Regular);
   font-size: 15px;
   font-weight: 500;
   text-transform: uppercase;
@@ -9472,7 +9472,7 @@ body.travel-agency {
   line-height: 61px;
   color: #ffffff;
   border-radius: 50px;
-  font-family: "Roboto", sans-serif;
+  font-family: var(--Modelica_Regular);
   font-size: 16px;
   font-weight: 500;
   text-transform: uppercase;
@@ -9600,7 +9600,7 @@ body.travel-agency {
 
 .event-ticket-price .single-item .ticket-price span:last-child {
   font-size: 15px;
-  font-family: "Roboto", sans-serif;
+  font-family: var(--Modelica_Regular);
   font-weight: 400;
 }
 
@@ -9608,7 +9608,7 @@ body.travel-agency {
   padding: 0;
   margin: 0;
   font-size: 20px;
-  font-family: "Roboto", sans-serif;
+  font-family: var(--Modelica_Regular);
   font-weight: 700;
   text-transform: uppercase;
   transition: all ease-in-out 0.3s;
@@ -9646,7 +9646,7 @@ body.travel-agency {
   line-height: 40px;
   color: #92278f;
   border-radius: 50px;
-  font-family: "Roboto", sans-serif;
+  font-family: var(--Modelica_Regular);
   font-size: 13px;
   font-weight: 500;
   text-transform: uppercase;
@@ -9675,7 +9675,7 @@ body.travel-agency {
   float: left;
   width: 20%;
   color: #ffffff;
-  font-family: "Roboto", sans-serif;
+  font-family: var(--Modelica_Regular);
   text-align: center;
   font-size: 15px;
   text-transform: uppercase;
@@ -9713,7 +9713,7 @@ body.travel-agency {
 }
 
 .faq_testimonial-event .testimonial-area .tesi-single-item .testimonial-content h3 {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--Modelica_Regular);
   font-size: 20px;
   margin: 0;
   text-transform: uppercase;
@@ -9907,7 +9907,7 @@ div.panel.show {
   line-height: 61px;
   color: #ffffff;
   border-radius: 50px;
-  font-family: "Roboto", sans-serif;
+  font-family: var(--Modelica_Regular);
   font-size: 16px;
   font-weight: 500;
   text-transform: uppercase;
@@ -9976,7 +9976,7 @@ div.panel.show {
 .blog-area .blog-single-box .blog-content h3 {
   margin: 0;
   padding-bottom: 10px;
-  font-family: "Roboto", sans-serif;
+  font-family: var(--Modelica_Regular);
   font-weight: 500;
 }
 
@@ -10005,7 +10005,7 @@ div.panel.show {
 .blog-area .blog-single-box .blog-content p {
   margin: 0;
   font-size: 15px;
-  font-family: "Roboto", sans-serif;
+  font-family: var(--Modelica_Regular);
   color: #727272;
 }
 
@@ -10018,7 +10018,7 @@ div.panel.show {
   margin: 0px;
   text-decoration: none;
   text-transform: uppercase;
-  font-family: "Roboto", sans-serif;
+  font-family: var(--Modelica_Regular);
   font-weight: 600;
   font-size: 14px;
   transition: all 0.3s ease-in-out;
@@ -10256,6 +10256,7 @@ nav .navbar-nav {
 .banner-intro-content .rhs_content .banner_title {
   color: var(--secondayColor);
   font-size: 62.4161px;
+  /* font-size: calc(4rem + 0.3vw); */
   line-height: 120%;
   font-family: var(--Modelica_Bold);
 }
@@ -10595,6 +10596,18 @@ input[type=number] {
   object-position: 0px bottom;
 }
 
+.locMap__innerCard figcaption h4 {
+  font-family: var(--Modelica_Bold);
+  line-height: 26px;
+  font-size: 19px;
+}
+
+.locMap__innerCard figcaption p {
+  font-family: var(--Montserrat_Medium);
+  line-height: 26px;
+  font-size: 19px;
+}
+
 .locMap_btn {
   position: relative;
   top: -150px;
@@ -10780,7 +10793,7 @@ input[type=number] {
 
 #gallerys {
   width: 100%;
-  height: 100vh;
+  /* height: 100vh; */
   display: block;
   padding: 100px 0;
 
@@ -10909,7 +10922,12 @@ input[type=number] {
 }
 
 #specification .specs__card:not(:first-child) {
-  margin-top: 50px;
+  margin-top: 40px;
+}
+
+.specs__lhs>img {
+  height: 40px;
+  width: 40px;
 }
 
 #specification .specs__rhs .specs__title {
@@ -10926,6 +10944,7 @@ input[type=number] {
   font-size: 18px;
   line-height: 24px;
   margin-top: 15px;
+  margin-bottom: 0;
 }
 
 .rem-fp-carousel .item-inner .floorBg {
@@ -11059,3 +11078,12 @@ footer.top-footer .siteAddress p {
 /* * {
   word-break: break-all;
 } */
+.cent {
+  display: flex;
+  align-items: center;
+}
+
+.adjPos {
+  top: -90px;
+  left: -18%;
+}
