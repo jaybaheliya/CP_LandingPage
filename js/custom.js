@@ -261,20 +261,7 @@ $(document).ready(function () {
     thumbItemClass: 'owl-thumb-item',
     // touchDrag: false,
     // mouseDrag: false,
-    responsive: {
-      0: {
-        items: 1,
-      },
-      480: {
-        items: 1,
-      },
-      768: {
-        items: 1,
-      },
-      992: {
-        items: 1,
-      },
-    },
+
   });
 
   //Travel Feedback Carousel
