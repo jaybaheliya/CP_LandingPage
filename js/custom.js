@@ -35,6 +35,13 @@ $(document).ready(function () {
   // WOW Js
   new WOW().init();
 
+  // AOS.init({
+  //   once: true,
+  //   duration: 1500,
+  //   disable: "mobile",
+  //   easing: "ease-in-out-quad"
+  // });
+
   $(window).load(function () {
     $("#status").fadeOut();
     $("#preloader").delay(350).fadeOut("slow");
