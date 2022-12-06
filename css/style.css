@@ -11232,6 +11232,10 @@ footer.top-footer .siteAddress p {
   font-family: var(--Montserrat_Medium);
 }
 
+footer.top-footer .siteAddress a {
+  color: inherit;
+}
+
 /* * {
   word-break: break-all;
 } */
