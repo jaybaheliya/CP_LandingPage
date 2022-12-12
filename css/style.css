@@ -13,6 +13,7 @@
   --secondayColor: #1c2c58;
   --dimYellow: #eeedde;
   --dimSkyBlue: #e6f5f6;
+  --primaryGradient: linear-gradient(91.18deg, #D59647 0%, #9C6A39 32.51%, #D09245 57.85%, #E0B580 79.67%, #D59647 100.78%);
 }
 
 @font-face {
@@ -307,6 +308,7 @@ section {
 
 .intro .cp-nav a.navbar-brand .transBg-logo {
   display: block;
+  width: 425px;
 }
 
 .intro .cp-nav a.navbar-brand .solidBg-logo {
@@ -315,6 +317,7 @@ section {
 
 .intro .is-sticky .cp-nav a.navbar-brand .solidBg-logo {
   display: block;
+  width: 425px;
 }
 
 .intro .is-sticky .cp-nav a.navbar-brand .transBg-logo {
@@ -330,6 +333,7 @@ section {
   display: inline;
   width: 76px;
   height: 95px;
+  filter: brightness(0) invert(1);
 }
 
 .intro .cp-nav ul li {
@@ -346,14 +350,14 @@ section {
 }
 
 .intro .cp-nav ul li a {
-  color: var(--secondayColor);
+  color: #fff;
   position: relative;
   text-transform: uppercase;
   padding: 6px 0;
   font-size: 16px;
   line-height: 20px;
   /* font-family: var(--Modelica_Bold); */
-  font-family: var(--Modelica_Regular);
+  font-family: var(--Modelica_Medium);
 }
 
 .intro .cp-nav ul li a:before,
@@ -382,6 +386,11 @@ section {
 .intro .cp-nav ul li:hover a {
   /* border-bottom: 2px solid #ffffff; */
   color: var(--primaryColor);
+  background: var(--primaryGradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
 }
 
 .intro .cp-nav ul li:hover a:before,
@@ -394,6 +403,11 @@ section {
 .intro .is-sticky .cp-nav ul li.active a {
   /* border-bottom: 2px solid #fff; */
   color: var(--primaryColor);
+  background: var(--primaryGradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
 }
 
 .intro .cp-nav ul li.active a {
@@ -3595,7 +3609,7 @@ section.overview {
 .rem-featured-properties .rem-fp-carousel .rmf-carousel .owl-nav div.owl-prev {
   position: relative;
   left: -45px;
-  width: 100px;
+  width: 50px;
 }
 
 .rem-featured-properties .rem-fp-carousel .rmf-carousel .owl-nav div.owl-prev.disabled,
@@ -3612,7 +3626,7 @@ section.overview {
   float: right;
   position: relative;
   right: -45px;
-  width: 100px;
+  width: 50px;
 }
 
 .container-custom {
@@ -7496,7 +7510,7 @@ body.travel-agency {
 /* Intro */
 .intro-restrnt {
   height: 100vh;
-  background: var(--dimYellow) url(../images/resources/banner-bg.png);
+  background: var(--secondayColor) url(../images/resources/banner-bg.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -10162,16 +10176,30 @@ nav .navbar-nav {
 .btn-style1 {
   padding: 12px 22px !important;
   color: var(--secondayColor);
+  background: var(--primaryGradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
   font-size: 16px;
   line-height: 20px;
   font-family: var(--Modelica_Medium);
-  border: 1px solid var(--secondayColor);
+  /* border: 1px solid var(--secondayColor); */
   text-transform: capitalize !important;
   display: inline-block;
+  box-sizing: content-box;
+  border-width: 1px;
+  border-style: solid;
+  border-image: var(--primaryGradient);
+  border-image-slice: 1;
 }
 
 .btn-style1:hover {
   background-color: var(--secondayColor) !important;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: var(--primaryColor);
+  background-clip: text;
+  text-fill-color: var(--primaryColor);
 }
 
 .tc {
@@ -10186,8 +10214,8 @@ nav .navbar-nav {
   font-size: 16px;
   line-height: 20px;
   font-family: var(--Modelica_Medium);
-  background-color: var(--primaryColor);
-  border: 1px solid var(--primaryColor);
+  background: var(--primaryGradient);
+  border: 1px solid var(--primaryGradient);
   text-transform: capitalize !important;
   display: inline-block;
 }
@@ -10267,6 +10295,11 @@ nav .navbar-nav {
 .banner-intro-content .lhs_content .banner_title,
 .banner-intro-content .rhs_content .banner_title {
   color: var(--secondayColor);
+  background: var(--primaryGradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
   font-size: 62.4161px;
   /* font-size: calc(4rem + 0.3vw); */
   line-height: 120%;
@@ -10277,7 +10310,7 @@ nav .navbar-nav {
   font-size: 20px;
   line-height: 120%;
   font-family: var(--Modelica_Medium);
-  color: var(--secondayColor);
+  color: #fff;
   margin-top: 50px;
 }
 
@@ -10287,6 +10320,8 @@ nav .navbar-nav {
   border-radius: 50%;
   object-fit: cover;
   object-position: 0;
+  border: 5px solid transparent;
+  background: var(--primaryGradient);
 }
 
 #overview {
@@ -10334,12 +10369,25 @@ nav .navbar-nav {
   font-family: var(--Montserrat_Medium);
 }
 
-/* .overView .container-fluid .rhs_imgView {
+.overView .container-fluid .rhs_imgView::after {
+  content: "Artist’s Impression";
+  color: #fff;
+  font-family: var(--Montserrat_Medium);
   padding-right: 0;
   position: absolute;
-  top: 0;
-  right: 0;
-} */
+  bottom: 20px;
+  left: 40px;
+}
+
+.mapText {
+  position: absolute;
+  top: 70px;
+  right: 50px;
+  font-size: 24px;
+  line-height: 120%;
+  font-family: var(--Montserrat_Bold);
+  color: var(--secondayColor);
+}
 
 .adjustSec {
   display: flex;
@@ -10500,6 +10548,11 @@ input[type="number"] {
 .scroll-down-text {
   transform: rotate(-90deg);
   color: #d8d8d8;
+  background: var(--primaryGradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
   font-family: var(--Modelica_Bold);
   color: var(--secondayColor);
   font-size: 12px;
@@ -10527,7 +10580,8 @@ input[type="number"] {
 
 .scroll-down-bar::before {
   animation: scrollDown 1.5s infinite;
-  background: #ab987a;
+  background: var(--primaryGradient);
+
   content: "";
   display: inline-block;
   height: 35px;
@@ -10730,13 +10784,26 @@ input[type="number"] {
 }
 
 #factFile {
-  background: #eeedde;
+  background: #E6F5F6 url(../images/resources/location/centerMap.png) no-repeat;
+  background-size: 60%;
+  background-position: center;
+  /* background: #eeedde; */
   /* height: 580px; */
   padding: 100px 0;
 }
 
 .factBtn_btn {
   margin-top: 50px;
+}
+
+#factFile .factFile__list.txtLeft,
+#factFile .factFile__list.txtLeft li {
+  text-align: left;
+}
+
+#factFile .factFile__list.txtRight,
+#factFile .factFile__list.txtRight li {
+  text-align: right;
 }
 
 #factFile .factFile__list {
@@ -10750,7 +10817,7 @@ input[type="number"] {
   line-height: 24px;
   text-align: center;
   font-family: var(--Montserrat_Medium);
-  margin-top: 15px;
+  margin-top: 12px;
 }
 
 #factFile .factFile__list li>b {
@@ -10782,14 +10849,14 @@ input[type="number"] {
   text-align: center;
   text-transform: lowercase;
   font-family: var(--Modelica_Bold);
-  color: #1c2c58;
-  opacity: 0.3;
+  color: #fff;
+  opacity: 0.7;
   margin-top: 0;
-  margin-bottom: 80px;
+  margin-bottom: 40px;
 }
 
 #configuration .config__table thead {
-  background-color: var(--primaryColor);
+  background: var(--primaryGradient);
 }
 
 #configuration .config__table {
@@ -10859,7 +10926,9 @@ input[type="number"] {
   height: 200px;
   width: 200px;
   border-radius: 50%;
-  border: 5px solid #c49a6c;
+  /* border: 5px solid #c49a6c; */
+  border: 5px solid transparent;
+  background: var(--primaryGradient);
 }
 
 #amenities .amenitiesCard img.largeC {
@@ -11119,7 +11188,7 @@ input[type="number"] {
 
 .custom-modules .custom-out-zoomer img,
 .custom-modules .custom-in-zoomer img {
-  width: 36px;
+  width: 50px;
 }
 
 .img_sec {
@@ -11197,6 +11266,7 @@ footer.top-footer {
   background: #eeedde url(../images/resources/partners-bg.png);
   padding: 100px 0;
   background-size: cover;
+  padding-bottom: 55px;
 }
 
 footer.top-footer .logoTag {
@@ -11210,8 +11280,13 @@ footer.top-footer .logoTag {
 
 .space1 {
   margin-top: 70px;
-  background: #d9d9d9a3;
+  background: #ffffffa8;
   padding: 60px;
+  margin-left: 0;
+  margin-right: 0;
+  /* width: 100vw; */
+  /* margin-left: -184px; */
+  /* transform: translateX(-4.6%); */
 }
 
 footer.top-footer .siteAddress h5 {
@@ -11234,6 +11309,10 @@ footer.top-footer .siteAddress p {
 
 footer.top-footer .siteAddress a {
   color: inherit;
+}
+
+footer.top-footer .siteAddress a.btn-style2 {
+  color: #fff;
 }
 
 /* * {
