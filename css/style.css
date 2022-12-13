@@ -10447,7 +10447,7 @@ nav .navbar-nav {
 
 .floatingForm .hrLine {
   display: inline-block;
-  background-color: #c49a6c;
+  background: var(--primaryGradient);
   width: 174px;
   height: 1px;
   margin-left: auto;
@@ -10466,6 +10466,18 @@ nav .navbar-nav {
   background: transparent;
   margin-top: 15px;
   padding: 5px 10px;
+  /* box-sizing: content-box; */
+  border-width: 1px;
+  border-style: solid;
+  border-image: var(--primaryGradient);
+  border-image-slice: 1;
+}
+
+#Recv_whatsApp {
+  border-width: 1px;
+  border-style: solid;
+  border-image: var(--primaryGradient);
+  border-image-slice: 1;
 }
 
 .floatingForm #contactform .cntyCodeDDL {
@@ -10942,6 +10954,11 @@ input[type="number"] {
   color: var(--primaryColor);
   font-family: var(--Modelica_Bold);
   text-align: center;
+  background: var(--primaryGradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
 }
 
 #amenities .amenitiesCard .amenitiesCard__desc {
