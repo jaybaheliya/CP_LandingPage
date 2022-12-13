@@ -67,7 +67,9 @@
   }
 
   .intro-restrnt {
-    background: url(../images/resources/amenities-bg.png);
+    background: url(../images/resources/amenities-bg.png) no-repeat;
+    background-size: cover;
+    background-position: center;
   }
 
   #partners::before {
