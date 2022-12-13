@@ -66,6 +66,10 @@
     overflow: hidden;
   }
 
+  .intro-restrnt {
+    background: url(../images/resources/amenities-bg.png);
+  }
+
   #partners::before {
     content: "partners";
     position: absolute;
