@@ -33,7 +33,9 @@
 		easing: 'easeInOutQuart',
 		// offset: 0,
 		// offsetTop: 150,
-		callback: function () { }
+		callback: function () {
+
+		}
 	};
 
 

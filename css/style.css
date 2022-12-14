@@ -10314,7 +10314,7 @@ nav .navbar-nav {
   margin-top: 50px;
 }
 
-.banner-intro-content .imgCircle>img {
+.banner-intro-content .imgCircle img {
   width: 450px;
   height: 450px;
   border-radius: 50%;
@@ -10322,6 +10322,25 @@ nav .navbar-nav {
   object-position: 0;
   border: 5px solid transparent;
   background: var(--primaryGradient);
+}
+
+/* .banner-intro-content .imgCircle .item::after {
+  content: "";
+  background: url(../images/resources/banner/ellipse.png);
+  position: absolute;
+  right: 0;
+  top: 0;
+} */
+
+
+.bannerFade {
+  text-align: -webkit-center;
+}
+
+.banner-intro-content .imgCircle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #overview {
@@ -10377,6 +10396,10 @@ nav .navbar-nav {
   position: absolute;
   bottom: 20px;
   left: 40px;
+}
+
+#overview .waterMark {
+  opacity: 0.5;
 }
 
 .mapText {

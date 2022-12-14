@@ -177,8 +177,19 @@
 
   .rem-fp-carousel .item-inner .floorBg {
     /* height: 300px; */
-    height: 244px;
+    height: 380px;
     width: 100%;
+  }
+
+  .zoomist-image {
+    position: absolute;
+    top: 0 !important;
+    left: 0 !important;
+    max-width: none !important;
+    max-height: none !important;
+    pointer-events: none;
+    height: 100% !important;
+    width: 100% !important;
   }
 
   .custom-modules {
@@ -1081,9 +1092,9 @@
   }
 
   .owl-carousel .owl-stage-outer {
-    padding-bottom: 50px;
+    /* padding-bottom: 50px;
     width: 100vw;
-    margin-left: -15px;
+    margin-left: -15px; */
   }
 
   .rem-featured-properties .rem-fp-carousel .rmf-carousel .owl-nav div.owl-prev {
@@ -1144,7 +1155,7 @@
     display: none;
   }
 
-  .banner-intro-content .imgCircle>img {
+  .banner-intro-content .imgCircle img {
     width: 200px;
     height: 200px;
     margin: auto;
@@ -1264,7 +1275,7 @@
     line-height: 1.2;
   }
 
-  .banner-intro-content .imgCircle>img {
+  .banner-intro-content .imgCircle img {
     width: 340px;
     height: 340px;
   }

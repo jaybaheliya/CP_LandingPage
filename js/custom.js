@@ -70,7 +70,23 @@ $(document).ready(function () {
   });
 
   //Scroll Spy
-  $("body").scrollspy({ target: ".cp-nav" });
+  $("body").scrollspy({
+    target: ".cp-nav",
+    offset: 140
+  });
+
+  $('.bannerFade').owlCarousel({
+    animateIn: 'fadeIn',
+    autoplay: true,
+    items: 1,
+    thumbs: false,
+    margin: 0,
+    touchDrag: false,
+    mouseDrag: false,
+    stagePadding: 0,
+    smartSpeed: 50
+  })
+
 
   //Circle Progress Bar
   //   $(".chart").easyPieChart({
