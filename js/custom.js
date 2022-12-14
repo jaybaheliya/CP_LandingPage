@@ -84,7 +84,8 @@ $(document).ready(function () {
     touchDrag: false,
     mouseDrag: false,
     stagePadding: 0,
-    smartSpeed: 50
+    smartSpeed: 50,
+    loop: true
   })
 
 
