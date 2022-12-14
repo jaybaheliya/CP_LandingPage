@@ -32,6 +32,8 @@
   <link rel="stylesheet" type="text/css" href="css/style.css" />
   <link rel="stylesheet" href="css/responsive.css" />
   <!-- <link rel="stylesheet" src="https://cdn.jsdelivr.net/gh/cotton123236/zoomist@latest/dist/zoomist.min.css" /> -->
+
+
 </head>
 
 <body>
@@ -76,21 +78,21 @@
             </div>
             <div class="col-md-4">
               <ul class="nav navbar-nav navbar-right">
-                <li><a data-scroll class="ovR" href="#overview">OVERVIEW</a></li>
-                <li><a data-scroll href="#locationMap">LOCATION MAP</a></li>
-                <li><a data-scroll href="#configuration">CONFIGURATIONS</a></li>
+                <li><a class="ovR" href="#overview">OVERVIEW</a></li>
+                <li><a href="#locationMap">LOCATION MAP</a></li>
+                <li><a href="#configuration">CONFIGURATIONS</a></li>
               </ul>
             </div>
             <div class="col-md-4">
               <ul class="nav navbar-nav navbar-right">
-                <li><a data-scroll href="#amenities">Highlights</a></li>
-                <li><a data-scroll href="#gallerys">AMENITIES</a></li>
-                <li><a data-scroll href="#floorPlans">PLANS</a></li>
+                <li><a href="#amenities">Highlights</a></li>
+                <li><a href="#gallerys">AMENITIES</a></li>
+                <li><a href="#floorPlans">PLANS</a></li>
               </ul>
             </div>
             <div class="col-md-4">
               <ul class="nav navbar-nav navbar-right">
-                <li><a data-scroll href="#partners">PArtners</a></li>
+                <li><a href="#partners">PArtners</a></li>
                 <li><a class="btn-style1 mt-15 formOpen hidden-xs" href="javascript:;">I’m Interested </a></li>
               </ul>
             </div>
@@ -1610,34 +1612,36 @@
     $("[data-toggle='collapse']").click(function () {
       $(".navbar-collapse").addClass("mblMenuFunc");
     });
-    $(".clsLogo,[data-scroll]").click(function () {
+    $(".clsLogo,.navbar-nav a").click(function () {
       $(".navbar-collapse").removeClass("mblMenuFunc");
     });
   </script>
 
-  <script>
+  <!-- <script>
 
-    window.addEventListener('DOMContentLoaded', (event) => {
-      const links = document.querySelectorAll("[data-scroll]");
+    // window.addEventListener('DOMContentLoaded', (event) => {
+    const links = document.querySelectorAll(".navbar-nav a");
 
-      for (const link of links) {
-        link.addEventListener("click", clickHandler);
-      }
+    for (const link of links) {
+      link.addEventListener("click", clickHandler);
+    }
 
-      function clickHandler(e) {
-        e.preventDefault();
-        const href = this.getAttribute("href");
+    function clickHandler(e) {
+      e.preventDefault();
+      const href = this.getAttribute("href");
 
-        const offsetTop = document.querySelector(href).offsetTop + 500;
-        scroll({
-          top: offsetTop,
-          behavior: "smooth"
-        });
-      }
-    });
+      const offsetTop = document.querySelector(href).offsetTop + 150;
+      console.log(offsetTop);
+      scroll({
+        top: offsetTop,
+        behavior: "smooth"
+      });
+    }
+  // });
 
 
-  </script>
+  </script> -->
+
 
 </body>
 

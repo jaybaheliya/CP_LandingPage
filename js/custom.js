@@ -88,6 +88,109 @@ $(document).ready(function () {
     loop: true
   })
 
+  if (window.innerWidth > 767) {
+    $("[href='#overview']").click(function () {
+      $("html, body").animate(
+        {
+          scrollTop: $("#overview").offset().top - 139
+        },
+        "0"
+      );
+    });
+    $("[href='#locationMap']").click(function () {
+      $("html, body").animate(
+        {
+          scrollTop: $("#locationMap").offset().top - 139
+        },
+        "0"
+      );
+    });
+    $("[href='#amenities']").click(function () {
+      $("html, body").animate(
+        {
+          scrollTop: $("#amenities").offset().top - 138
+        },
+        "0"
+      );
+    });
+    $("[href='#gallerys']").click(function () {
+      $("html, body").animate(
+        {
+          scrollTop: $("#gallerys").offset().top - 139
+        },
+        "0"
+      );
+    });
+    $("[href='#floorPlans']").click(function () {
+      $("html, body").animate(
+        {
+          scrollTop: $("#floorPlans").offset().top - 139
+        },
+        "0"
+      );
+    });
+    $("[href='#partners']").click(function () {
+      $("html, body").animate(
+        {
+          scrollTop: $("#partners").offset().top - 139
+        },
+        "0"
+      );
+    });
+
+  } else {
+    $("[href='#overview']").click(function () {
+      $("html, body").animate(
+        {
+          scrollTop: $("#overview").offset().top - 85
+        },
+        "0"
+      );
+    });
+    $("[href='#locationMap']").click(function () {
+      $("html, body").animate(
+        {
+          scrollTop: $("#locationMap").offset().top - 85
+        },
+        "0"
+      );
+    });
+    $("[href='#amenities']").click(function () {
+      $("html, body").animate(
+        {
+          scrollTop: $("#amenities").offset().top - 85
+        },
+        "0"
+      );
+    });
+    $("[href='#gallerys']").click(function () {
+      $("html, body").animate(
+        {
+          scrollTop: $("#gallerys").offset().top - 85
+        },
+        "0"
+      );
+    });
+    $("[href='#floorPlans']").click(function () {
+      $("html, body").animate(
+        {
+          scrollTop: $("#floorPlans").offset().top - 85
+        },
+        "0"
+      );
+    });
+    $("[href='#partners']").click(function () {
+      $("html, body").animate(
+        {
+          scrollTop: $("#partners").offset().top - 85
+        },
+        "0"
+      );
+    });
+
+  }
+
+
 
   //Circle Progress Bar
   //   $(".chart").easyPieChart({
